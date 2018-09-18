@@ -1,0 +1,7 @@
+tqdm==4.19.2
+gensim==3.0.1
+nltk==3.2.4
+requests==2.18.4
+wikiwords==0.5
+beautifulsoup4==4.6.3
+newspaper3k==0.2.7

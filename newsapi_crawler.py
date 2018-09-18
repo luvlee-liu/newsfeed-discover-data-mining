@@ -139,7 +139,7 @@ def getDailyNews(file_path):
     try:
         # merge with csv
         aux = pd.read_csv(file_path)
-        news = news[~new.url.isin(aux.url.values.tolist())]
+        news = news[~news.url.isin(aux.url.values.tolist())]
         with open(file_path, 'a') as f:
             news.to_csv(f, header=False, encoding='utf-8', index=False)
 
